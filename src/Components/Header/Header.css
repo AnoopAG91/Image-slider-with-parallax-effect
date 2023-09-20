@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    box-shadow: 0 3px 10px rgb(81 81 81 / 45%);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0px 20px;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+.header-left h3{
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    letter-spacing: 2px;
+}
+.header-left h3:hover{
+   border-bottom: 3px solid orangered;
+   transition: 0.1s;
+   letter-spacing: 3px;
+   position: sticky;
+}
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+.header-right span{
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+}
+.header-right span:hover{
+    border-bottom: 3px solid orangered;
+    transition: 0.2s;
+}
